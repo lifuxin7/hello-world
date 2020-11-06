@@ -10,6 +10,7 @@ wd = webdriver.Chrome()
 wd.implicitly_wait(10)#设置最大等待时长
 
 def main():
+
     wd.get('https://www.qidian.com/')#起点中文网
     # 点击登录
     wd.find_element_by_id('login-btn').click()
