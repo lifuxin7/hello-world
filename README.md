@@ -7,13 +7,10 @@ myusername = "abcdefg"
 mypassword = "abcdefg"
 
 wd = webdriver.Chrome()
-#设置最大等待时长
-wd.implicitly_wait(10)
+wd.implicitly_wait(10)#设置最大等待时长
 
 def main():
-    # 起点中文网
-    wd.get('https://www.qidian.com/')
-
+    wd.get('https://www.qidian.com/')#起点中文网
     # 点击登录
     wd.find_element_by_id('login-btn').click()
     sleep(3)
