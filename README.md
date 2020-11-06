@@ -3,11 +3,11 @@
 from time import sleep
 from selenium import webdriver
 
-myusername = "********"
-mypassword = "********"
+myusername = "abcdefg"
+mypassword = "abcdefg"
 
 wd = webdriver.Chrome()
-# 设置最大等待时长为 10秒
+#设置最大等待时长
 wd.implicitly_wait(10)
 
 def main():
